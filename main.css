@@ -1,0 +1,107 @@
+.animation0{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: linear-gradient(red, blue, yellow);
+    border-radius: 50px;
+    animation-name: box1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes box1 {
+    0% {left:0%;}
+    1% {top: 5px;}
+    2% {top: 10px;}
+    5% {top: 15px;}
+    10% {top: 25px;}
+    20% {top: 35px;}
+    30% {top: 45px;}
+    40% {top: 55px;}
+    50% {top: 65px;}
+    60% {top: 55px;}
+    70% {top: 45px;}
+    80% {top: 35px;}
+    90% {top: 25px;}
+    95% {top: 15px;}
+    98% {top: 10px;}
+    99% {top: 5px;}
+    100% {left: 86%;}
+}
+
+.animation1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: radial-gradient(red, yellow, green);
+    border-radius: 50px;
+    animation-name: box2;
+    animation-duration: 2.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    left: 93%;
+}
+
+@keyframes box2 {
+    0% {top: 15%;}
+    100% {top: 80%}
+}
+
+.animation2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: conic-gradient(red, yellow, green);
+    border-radius: 50px;
+    animation-name: box3;
+    animation-duration: 2.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 120px;
+}
+
+@keyframes box3 {
+    0% {left: 8%}
+    100% {left: 93%}
+}
+
+.animation3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: repeating-linear-gradient(to right, red, yellow, green,red,yellow,green);
+    border-radius: 50px;
+    animation-name: box4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes box4 {
+    0% {top: 15%;}
+    100% {top: 86%;}
+}
+
+.animation4{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    background: radial-gradient(red, yellow, green);
+    border-radius: 50px;
+    animation-name: box5;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    margin-top: 120px;
+}
+
+@keyframes box5 {
+    0% {left: 0%;}
+    100% {left: 86%;}
+}
